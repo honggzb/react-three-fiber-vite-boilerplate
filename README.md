@@ -1,4 +1,4 @@
-# A boilerplate R3F projects
+# A boilerplate React Three Fiber projects
 
 ## how to use project
 
