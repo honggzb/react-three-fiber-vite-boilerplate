@@ -13,6 +13,7 @@
 - `npx tailwindcss init -p`
    - [Vite PostCSS module error when building app in Svelte](https://stackoverflow.com/questions/73136479/vite-postcss-module-error-when-building-app-in-svelte)
 - adding following to 'postcss.config.js' and 'tailwind.config.js'
+- adding three lines in 'index.css' file
 
 ```javascript
 //postcss.config.js
@@ -22,4 +23,8 @@
   },
 //tailwind.config.js
 content: ["./src/**/*.{html,jsx}"],
+//index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 ```
