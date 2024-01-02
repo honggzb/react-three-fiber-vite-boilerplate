@@ -1,4 +1,4 @@
-# A boilerplate React Three Fiber projects
+# A boilerplate React Three Fiber projects  - 3D Text + camera animation effect
 
 ## how to use project
 
